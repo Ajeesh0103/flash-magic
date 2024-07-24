@@ -1,0 +1,19 @@
+*** Creating Trace Output File 'led-2.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"led.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "led.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\led-2.map" -o "led-2.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'led-2.axf'
+### ADS-LD Command File: 'led-2.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'led-2.lnp', Handle=0x000005D0
+### Writing '.lnp' file
+### ADS-LD Command file 'led-2.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

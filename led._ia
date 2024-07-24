@@ -1,0 +1,1 @@
+--device DARMP --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "LED.lst" --xref -o "LED.o" "LED.S"

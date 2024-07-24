@@ -1,0 +1,12 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+                       
+Command Line: --debug --xref --device=DARMP --apcs=interwork -oLED.o -IC:\Keil\
+ARM\INC\Philips --predefine="__RTX SETA 1" --predefine="__EVAL SETA 1" --list=L
+ED.lst LED.S
+321 symbols in table

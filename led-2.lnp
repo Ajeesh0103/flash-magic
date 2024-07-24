@@ -1,0 +1,3 @@
+--device DARMP "startup.o" "led.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\led-2.map" -o "led-2.axf"

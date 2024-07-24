@@ -1,0 +1,12 @@
+[Signum Systems SigUV3Arm.dll Settings]
+
+[Flash Programming - Target 1]
+ProgrammingOptions=0x20003            
+RAMAreaAddr=0x40000000            
+RAMAreaSize=0x800            
+FlashDevice_0=LPC2000 IAP 256kB Flash,257,1,0x0,0x3e000,LPC_IAP_256.flx            
+
+[Emulation Parameters - Target 1]
+BypassTest=no            
+ResetCPUonStartup=yes            
+SetPCandCPSRonCPUReset=yes            
